@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  overflow: auto;
+}
+body {
+  height: 100%;
+}
+.customscroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* scrollbar-width: thin; */
+  scrollbar-color: red !important;
+}
+.customscroll::-webkit-scrollbar {
+  width: 5px;
+  scrollbar-color: red;
+}
+#homePage {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(circle, #000205, #001f2b, #00383d, #005035, #086610);
+}
+#inputField {
+  background-color: white;
+  padding: 20px;
+  width: 30rem;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+}
+#goBtn {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+}
+#welcomeText {
+  font-size: 5rem;
+  color: wheat;
+
+} #spanChat {
+  color: blue;
+} #spanApp {
+  color: darkred;
+}
+
+#chatBox {
+  background-image: linear-gradient(to right top, #f6faff, #d7d2ff, #ed9ae3, #ff518f, #eb1212);
+}
+#logoutBtn {
+  background-color: red;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
